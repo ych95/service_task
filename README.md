@@ -50,9 +50,9 @@
 ---
 
 ## 5. 추천 설정
-✅ **Windows Update(wuauserv)는 주기적으로 실행하여 보안 업데이트 설치**
-✅ **Windows Defender 관련 작업은 유지하여 보안 취약점 방지**
-✅ **Windows 검색(WSearch)은 필요할 때만 비활성화하여 검색 기능 유지**
+✅ **Windows Update(wuauserv)는 주기적으로 실행하여 보안 업데이트 설치**<br>
+✅ **Windows Defender 관련 작업은 유지하여 보안 취약점 방지**<br>
+✅ **Windows 검색(WSearch)은 필요할 때만 비활성화하여 검색 기능 유지**<br>
 ✅ **Superfetch(SysMain)은 SSD 사용 환경에서만 비활성화**
 
 이 설정을 통해 최적의 성능과 보안을 유지할 수 있습니다. 🚀
