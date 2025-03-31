@@ -12,10 +12,10 @@
 | 서비스 | 역할 | 비활성화 효과 |
 |---------|---------------------------------|-------------------------------------------------------------|
 | **BITS (Background Intelligent Transfer Service)** | 백그라운드에서 파일을 다운로드 및 업로드하는 서비스 (Windows 업데이트 및 기타 Microsoft 서비스에서 사용) | Windows 업데이트, Microsoft Store 다운로드 등이 느려지거나 실패할 가능성이 있음. 하지만 불필요한 백그라운드 데이터 사용을 차단하여 네트워크 대역폭을 절약할 수 있음. |
-| **DiagTrack (Diagnostics Tracking Service, aka Connected User Experiences and Telemetry)** | Microsoft에 원격으로 진단 및 사용 데이터를 전송하는 서비스 | Windows의 원격 진단 데이터 수집을 막아 개인정보 보호 강화. 일부 Windows 기능(예: 피드백 허브, 추천 기능)이 제한될 수 있음. |
+| **DiagTrack (Connected User Experiences and Telemetry)** | Microsoft에 원격으로 진단 및 사용 데이터를 전송하는 서비스 | Windows의 원격 진단 데이터 수집을 막아 개인정보 보호 강화. 일부 Windows 기능(예: 피드백 허브, 추천 기능)이 제한될 수 있음. |
 | **PcaSvc (Program Compatibility Assistant Service)** | 이전 Windows 버전용 프로그램의 호환성을 자동으로 조정하는 서비스 | 일부 구형 프로그램 실행 시 문제가 발생할 가능성이 있음. 하지만 불필요한 백그라운드 프로세스를 줄일 수 있음. |
-| **SysMain (Superfetch, 기존 Prefetch)** | 자주 사용하는 프로그램을 미리 로드하여 성능을 높이는 기능 | SSD 환경에서는 성능 개선 효과가 크지 않으므로 불필요한 디스크 및 메모리 사용을 줄일 수 있음. |
-| **WSearch (Windows Search, aka 인덱싱 서비스)** | 파일 검색 속도를 높이기 위해 색인을 생성하는 기능 | Windows 탐색기의 검색 기능이 느려질 수 있지만, 불필요한 디스크 및 CPU 사용량이 줄어들어 시스템 성능이 향상될 수 있음. |
+| **SysMain (Superfetch)** | 자주 사용하는 프로그램을 미리 로드하여 성능을 높이는 기능 | SSD 환경에서는 성능 개선 효과가 크지 않으므로 불필요한 디스크 및 메모리 사용을 줄일 수 있음. |
+| **WSearch (Windows Search)** | 파일 검색 속도를 높이기 위해 색인을 생성하는 기능 | Windows 탐색기의 검색 기능이 느려질 수 있지만, 불필요한 디스크 및 CPU 사용량이 줄어들어 시스템 성능이 향상될 수 있음. |
 | **wuauserv (Windows Update Service)** | Windows 업데이트를 담당하는 서비스 | 자동 업데이트가 비활성화되어 원치 않는 업데이트가 설치되지 않음. 하지만 보안 패치가 적용되지 않아 보안 취약점이 남을 수 있음. |
 
 ---
